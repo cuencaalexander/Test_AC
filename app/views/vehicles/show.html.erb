@@ -1,8 +1,20 @@
 <p id="notice"><%= notice %></p>
 
+
+
 <p>
   <strong>Nickname:</strong>
-  <%= @vehicle.nickname %>
+  <%= @vehicle.nickname %>  
+  <strong>Wheels:</strong>
+  <%= @vehicle.wheels %>
+  <strong>Engine Status:</strong>
+  <%= @vehicle.engine_status %>
+  <strong>Mileage:</strong>
+  <%= @vehicle.mileage %>
+  <strong>Mileage Status:</strong>
+  <%= @vehicle.mileage_status %>
+  <strong>Registration ID:</strong>
+  <%= @vehicle.registration_id %>
 </p>
 
 <%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
